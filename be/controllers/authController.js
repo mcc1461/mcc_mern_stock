@@ -95,5 +95,6 @@ function isEmail(emailAddress) {
   }
 }
 
+
 module.exports = { register, login, logout };
 // Path: be/controllers/auth.js

@@ -4,7 +4,10 @@ const { register, login, logout } = require('../controllers/authController.js');
 
 
 
-
+router.get('/test', (req, res) => {
+    res.send('Auth route');
+    }
+);
 
 router.post('/register', (req, res) => {
     res.send('Register route');

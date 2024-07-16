@@ -15,6 +15,25 @@ BE: npm init -y
 FE: npx create-react-app .
     "start": "PORT=3061 react-scripts start"
 
+    "https://tailwindcss.com/docs/guides/create-react-app"
+    npm install -D tailwindcss
+    npx tailwindcss init
+
+    npm install --save-dev @babel/plugin-proposal-private-property-in-object
+
+    npm i react-router-dom axios react-icons  
+
+    "https://www.npmjs.com/package/react-toastify"
+    npm install --save react-toastify
+    
+    "https://react-redux.js.org/introduction/getting-started"
+    "https://handsonreact.com/docs/redux-thunk"
+    npm i redux react-redux redux-thunk 
+    "https://www.npmjs.com/package/redux-devtools-extension"
+    npm install --save redux-devtools-extension
+    npm install redux-devtools-extension --legacy-peer-deps
+
+
 root: git init 
       
 
@@ -26,6 +45,6 @@ root: git init
         config // dbConnection
         .env // PORT, MongoDb
 
-1. Auth process
+2. Auth >> BE register, login, logout
 
-.
+3. FE >> folders => hooks, components, containers, redux ((actions, reducers, store.js)), pages
